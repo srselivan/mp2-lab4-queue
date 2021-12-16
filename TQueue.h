@@ -48,7 +48,7 @@ public:
 		countEl++;
 	}
 
-	T& Pop()
+	T Pop()
 	{
 		if (IsEmpty())
 			throw countEl;
